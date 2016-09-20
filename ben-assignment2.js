@@ -54,7 +54,7 @@ var cart = new ShoppingCart([book1, book2]);
 cart.add(book3);
 cart.add(book4);
 var subtotal = cart.getTotal();
-console.log(subtotal); // 160
+console.log(subtotal);
 
 // TASK 3
 Array.prototype.map2 = function(callbackFunction) {
